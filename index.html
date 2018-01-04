@@ -25,6 +25,8 @@
   <body>
 	<DIV id="message">Talk to me</DIV>
 
+  <iframe src="http://2.111.67.131:12000/default.html"></iframe>
+
     <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
     <script type="text/javascript">
       window.onload = function() {
@@ -85,6 +87,8 @@
         document.getElementById("message").innerHTML=text;
         window.castReceiverManager.setApplicationState(text);
       };
+
+
 
       var domain = "https://rikkek.github.io/"
       function goToUrl(url) {
