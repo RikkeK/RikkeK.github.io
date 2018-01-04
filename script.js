@@ -62,6 +62,6 @@
 
       var domain = "https://rikkek.github.io/"
       function goToUrl(url) {
-        document.location.href = domain + url;
+        document.getElementById("game").src = domain + url;
       }
 
