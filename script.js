@@ -66,6 +66,5 @@
       }
 
 
-      var roll = Math.floor(Math.random()*6+1);
-      document.write('<h1>Rullet:  ' + roll </h1>');
+      
 
