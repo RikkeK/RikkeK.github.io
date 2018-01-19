@@ -5,12 +5,15 @@
 	<script type="text/javascript">
     	
 
-      	function rollDice() {
-
-      		var roll = Math.floor(Math.random()*6+1);
+var roll = Math.floor(Math.random()*6+1);
     		document.close();
       		document.write('<h1> Rullet:  ' + roll + '</h1>');
 
+      	function rollDice() {
+
+      		
+
+    
       		switch (roll) {
       			case 1: 
       				document.getElementById('dice').src = 'dice/dice1.svg';
@@ -33,16 +36,13 @@
       			default: 
       			break;
       		}
-
-
-      		document.getElementById('dice').src = 'dice/dice1.svg';
       	}
       	
       	
     </script>
   </head>
     <body style="color: #b3b3b3" onload="rollDice();">
-    	Hej
+    	<h3> hej </h3>
 
 		<img id="dice" src="google.com" style="width:297px;height:294px;">
     	
