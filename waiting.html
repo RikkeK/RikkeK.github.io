@@ -7,11 +7,14 @@
     	document.close();
       	document.write('<h1> Rullet:  ' + roll + '</h1>');
 
+      	function rollDice() {
+      		document.getElementById('dice').src = 'dice/dice1.svg';
+      	}
       	
       	
     </script>
   </head>
-    <body style="color: #b3b3b3" onload="document.getElementById('dice').src = 'dice/dice1.svg';">
+    <body style="color: #b3b3b3" onload="rollDice();">
     	Hej
 
 		<img id="dice" src="google.com" style="width:297px;height:294px;">
