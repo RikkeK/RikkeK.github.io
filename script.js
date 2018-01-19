@@ -65,3 +65,7 @@
         document.getElementById("game").src = domain + url;
       }
 
+
+      var roll = Math.floor(Math.random()*6+1);
+      alert("rullet: " + roll);
+
