@@ -3,11 +3,14 @@
 <html>
   <head> 
 	<script type="text/javascript">
-    	var roll = Math.floor(Math.random()*6+1);
-    	document.close();
-      	document.write('<h1> Rullet:  ' + roll + '</h1>');
+    	
 
       	function rollDice() {
+
+      		var roll = Math.floor(Math.random()*6+1);
+    		document.close();
+      		document.write('<h1> Rullet:  ' + roll + '</h1>');
+
       		switch (roll) {
       			case 1: 
       				document.getElementById('dice').src = 'dice/dice1.svg';
