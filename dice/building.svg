@@ -37,15 +37,5 @@
        style="fill:#7c6f9f;fill-opacity:0.92271645;stroke-width:0.26458332" />
   </g>
 
- 
 
-  <animateTransform 
-  xlink:href="#rect5544"
-  attributeName="transform"
-  attributeType="XML"
-  type="rotate"
-  from="0 100 200"
-  to="360 100 200"
-  dur="10s"
-  repeatCount="indefinite"/>
 </svg>
