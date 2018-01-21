@@ -43,7 +43,9 @@
   from="0 100 200"
   to="360 100 200"
   dur="10s"
-  repeatCount="indefinite"/> </rect>
+  repeatCount="indefinite"/> 
+
+</rect>
   </g>
 
  
